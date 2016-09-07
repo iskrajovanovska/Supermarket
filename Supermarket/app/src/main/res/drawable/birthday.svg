@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="42px" height="43px" viewBox="0 0 42 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>700A889D-80E1-404E-89B9-3FFA681870E6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="16" width="42" height="26" rx="4"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="42" height="26" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M21.16151,5.2011468 C21.827108,2.22502864 24.4846068,0 27.662,0 C31.341,0 34.323,2.982 34.323,6.661 C34.323,10.341 31.341,13.323 27.662,13.323 L27.662,13.334 L20.995,13.334 L20.995,13.333 L14.661,13.333 L14.661,13.322 C10.983,13.323 8,10.34 8,6.661 C8,2.983 10.982,0 14.661,0 C17.8376381,0 20.4958382,2.22443473 21.16151,5.2011468 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26.323" height="13.334" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Supermarket" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="2-Sign-Up" transform="translate(-44.000000, -989.000000)">
+            <g id="birthday" transform="translate(40.000000, 985.000000)">
+                <g transform="translate(0.000000, 0.948000)">
+                    <g id="group" transform="translate(4.000000, 4.000000)" stroke="#FFFFFF">
+                        <use id="shape" mask="url(#mask-2)" stroke-width="4" stroke-linecap="round" xlink:href="#path-1"></use>
+                        <path d="M21,18.8461538 L21,39.2242369" id="line" stroke-width="2" stroke-linecap="square"></path>
+                        <use id="shape" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+                    </g>
+                    <rect id="bounds" x="0" y="0" width="50" height="50"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
