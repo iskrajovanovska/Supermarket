@@ -12,7 +12,7 @@
     <ImageView
         android:layout_height="match_parent"
         android:layout_width="50dp"
-        android:id="@+id/korisnik"
+        android:id="@+id/korisnik1"
         android:scaleType="fitXY"
         android:src="@drawable/ic_person_outline_black_24dp"
         />
@@ -22,7 +22,7 @@
         android:layout_width="fill_parent"
         android:hint="Korisnicko ime"
         android:textColorHint="#FFFFFF"
-        android:id="@+id/editKorisnickoIme"
+        android:id="@+id/editKorisnickoIme1"
 
         />
 </LinearLayout>
@@ -35,7 +35,7 @@
         <ImageView
             android:layout_height="match_parent"
             android:layout_width="50dp"
-            android:id="@+id/lozinka"
+            android:id="@+id/lozinka1"
             android:scaleType="fitXY"
             android:src="@drawable/add1"
             />
@@ -45,7 +45,7 @@
             android:layout_width="fill_parent"
             android:hint="Lozinka"
             android:textColorHint="#FFFFFF"
-            android:id="@+id/editLozinka"
+            android:id="@+id/editLozinka1"
 
 
             />

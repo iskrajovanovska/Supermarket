@@ -1,6 +1,8 @@
 package com.example.cubesschool7.supermarket.main;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
@@ -11,6 +13,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.EditText;
@@ -25,7 +28,8 @@ public class LoginActivity extends AppCompatActivity {
     private TabLayout tabLayout;
     private ViewPager viewPager;
     private Animation animation;
-
+    private ImageView circleImageView;
+    private CircleImage circleImage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +38,16 @@ public class LoginActivity extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.viewTabLayout);
         viewPager = (ViewPager) findViewById(R.id.viePager1);
         logo = (ImageView) findViewById(R.id.logo);
+        circleImageView = (ImageView) findViewById(R.id.imageKOrisnik);
+
+        Bitmap bm = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher);
+        circleImage = new CircleImage(bm);
+        circleImageView.setImageDrawable(circleImage);
+
+        circleImageView.setVisibility(View.INVISIBLE);
+
+
+
 
         animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.animation);
 
@@ -45,6 +59,11 @@ public class LoginActivity extends AppCompatActivity {
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
+                if(tab.getPosition()==1){
+
+                    logo.setVisibility(View.INVISIBLE);
+                    circleImageView.setVisibility(View.VISIBLE);
+                }
                 viewPager.setCurrentItem(tab.getPosition());
             }
 
@@ -58,6 +77,10 @@ public class LoginActivity extends AppCompatActivity {
                 viewPager.setCurrentItem(tab.getPosition());
             }
         });
+
+        
+
+
     }
 
     private class CustomAdapter extends FragmentPagerAdapter {
