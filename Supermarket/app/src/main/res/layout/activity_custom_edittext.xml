@@ -3,12 +3,12 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.cubesschool7.supermarket.main.CustomEditText
+    <com.example.cubesschool7.supermarket.main.customcomponents.CustomEditText
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
 
-    </com.example.cubesschool7.supermarket.main.CustomEditText>
+    </com.example.cubesschool7.supermarket.main.customcomponents.CustomEditText>
 
 </LinearLayout>

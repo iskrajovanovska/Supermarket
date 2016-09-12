@@ -40,7 +40,7 @@
             android:src="@drawable/add1"
             />
 
-        <EditText
+        <com.example.cubesschool7.supermarket.main.customcomponents.EditTextFont
             android:layout_height="match_parent"
             android:layout_width="fill_parent"
             android:hint="Lozinka"
